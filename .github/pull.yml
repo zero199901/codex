@@ -1,0 +1,6 @@
+version: '1'
+rules:
+- base: main
+  upstream: openai:main
+  mergeMethod: merge
+  mergeUnstable: false
